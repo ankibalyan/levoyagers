@@ -1,0 +1,12 @@
+#VerNavMenu{
+	width:200px;
+}
+#VerNavMenu ul li a{
+width: 170px;
+}
+#VerNavMenu ul ul li a{
+width: 170px;
+}
+#VerNavMenu ul ul{
+left: 200px;
+}

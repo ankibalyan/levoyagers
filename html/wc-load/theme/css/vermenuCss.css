@@ -1,0 +1,74 @@
+@charset "utf-8";
+#VerNavMenu{
+	margin: 10px 0 0 10px;
+	padding:0;
+	position:relative;
+	z-index: 9999;
+	background:#FFFFFF;
+	border-radius:0px 0;
+	width:200px;
+	border: #000033 medium solid;
+	border-left: #000033 medium solid;
+}
+#VerNavMenu a{
+font-weight:bold;
+text-align: Left;
+text-decoration:none;
+font-family: Geneva, sans-serif, , Helvetica, Arial;
+font-size:12px;
+color:#ffffcc;
+text-transform:uppercase;
+}
+#VerNavMenu ul{
+margin:0;
+padding:0px;
+}
+#VerNavMenu li{
+margin:0;
+padding:0;
+list-style:none;
+position: relative;
+}
+#VerNavMenu ul.list-inline li{ padding:0; line-height: 40px;}
+
+#VerNavMenu ul li a{
+padding: 0px 10px 0 10px;
+height:40px;
+width:190px;
+display: block;
+background:#0066CC /*url(../backgrounds/vbtn.png)*/;
+border-bottom:#FFFFFF thin solid;
+border-left: white medium solid;
+}
+#VerNavMenu ul ul li a{
+width: 220px;
+}
+#VerNavMenu ul li:hover a{
+background:#52B7F3 /*url(../backgrounds/vbtn.png)*/;
+color:#fff;
+border-left: #000033 medium solid;
+}
+
+#VerNavMenu ul li a:hover{
+background:#fff /*url(../backgrounds/vbtn.png)*/;
+color:#0066cc;
+border-radius:0px;
+border-left:red medium solid;
+
+}
+#VerNavMenu ul ul{
+position:absolute;
+visibility:hidden;
+left: 190px;
+top: 0px;
+}
+#VerNavMenu ul li:hover li{
+visibility:visible;
+}
+#VerNavMenu ul ul li:hover a{
+background:#fff /*url(../backgrounds/vbtn1.png)*/;
+color:#0066cc;
+text-align: left;
+border-radius:2px;
+}
+

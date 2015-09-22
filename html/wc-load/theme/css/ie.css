@@ -1,0 +1,37 @@
+.container{
+margin: 0 auto;
+width: 1024px;
+}
+
+
+.Section{
+margin: 10px 0 0 0px;
+padding: 15px 10px;
+display:block;
+float: right;
+background:#FFFFFF;
+border: #000033 thick solid;
+border-radius: 10px 0px ;
+font-size:16px;
+color: #333333;
+text-align:justify;
+}
+
+.Section p{
+margin: 10px 0 0 0px;
+padding: 15px 20px;
+font-size:16px;
+color: #333333;
+text-align:justify;
+}
+
+.Hotboxes{
+width: 160px;
+}
+
+#hotnews{
+width:160px;
+height:150PX;
+}
+
+
